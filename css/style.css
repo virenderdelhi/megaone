@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+nav{
+    border:  1px solid white;
+    display: flex;
+    flex-wrap:  wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: auto 30px !important;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+a:hover{
+  color: #a07bf7;
+}
+nav >ul {
+    display: flex;
+    list-style-type: none;
+    flex-wrap:  wrap;
+}
+nav >ul li{
+    padding: 20px;
+    font-size: 20px;
+}
+nav >ul li a{
+  text-decoration: none;
+  color: black;
+}
+.off >ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  display: block;
+}
+.off>ul li{
+  list-style-type: none;
+}
+.text >ul li{
+    padding: 10px;
+    list-style: square;
+}
+
+.works-3:hover{
+    color: #a07bf7;
+}
+.card_ceo{
+    position: relative;
+}
+.card_ceo_inner{
+background-color: white;
+position: absolute;
+width: 60%;
+left: 50%;
+transform: translate(-50%);
+bottom: -10%;
+text-align: center;
+}
+.card_ceo_inner>.icon{
+    background-color: #a07bf7;
+    color: white;
+    
+}
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  .blog-2:hover{
+  color: #a07bf7;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  
+  /* Style the close button */
+  .topright {
+    float: right;
+    cursor: pointer;
+    font-size: 28px;
+  }
+  
+  .topright:hover {color: red;}
+  .activecls{
+    display: block;
+  }
+  .blog-5:hover{
+    color: #a07bf7;
+    
+  }
+  .fa{
+    font-size: 70px;
+  }
+  #contactbox{
+    border: none;
+    border-bottom: 1px solid black;
+    height: 30px;
+    width: 100%;
+  }
+  footer{
+    border: 2px solid white;
+    height: 200px;
+  }
+  
